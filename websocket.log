@@ -1,0 +1,260 @@
+02/25/2016 15:04:33|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:04:34|Fatal|WebSocket.connect:910|WebSocketSharp.WebSocketException: An error has occurred during a TLS handshake. ---> System.IO.IOException: The authentication or decryption has failed. ---> Mono.Security.Protocol.Tls.TlsException: The authentication or decryption has failed.
+                            at Mono.Security.Protocol.Tls.RecordProtocol.ProcessAlert (AlertLevel alertLevel, AlertDescription alertDesc) [0x00000] in <filename unknown>:0 
+                            at Mono.Security.Protocol.Tls.RecordProtocol.InternalReceiveRecordCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at Mono.Security.Protocol.Tls.SslStreamBase.AsyncHandshakeCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at WebSocketSharp.WebSocket.setClientStream () [0x000fe] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1668 
+                            at WebSocketSharp.WebSocket.doHandshake () [0x00000] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1024 
+                            at WebSocketSharp.WebSocket.connect () [0x0004f] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:904 
+02/25/2016 15:04:34|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:04:34|Debug|WebSocket.closeHandshake:884|Was clean?: False
+                            sent: False
+                            received: False
+02/25/2016 15:04:34|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:04:41|Error|WebSocket.Close:2085|This operation isn't available in: closed
+02/25/2016 15:08:07|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:08:07|Fatal|WebSocket.connect:910|WebSocketSharp.WebSocketException: An error has occurred during a TLS handshake. ---> System.IO.IOException: The authentication or decryption has failed. ---> Mono.Security.Protocol.Tls.TlsException: The authentication or decryption has failed.
+                            at Mono.Security.Protocol.Tls.RecordProtocol.ProcessAlert (AlertLevel alertLevel, AlertDescription alertDesc) [0x00000] in <filename unknown>:0 
+                            at Mono.Security.Protocol.Tls.RecordProtocol.InternalReceiveRecordCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at Mono.Security.Protocol.Tls.SslStreamBase.AsyncHandshakeCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at WebSocketSharp.WebSocket.setClientStream () [0x000fe] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1668 
+                            at WebSocketSharp.WebSocket.doHandshake () [0x00000] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1024 
+                            at WebSocketSharp.WebSocket.connect () [0x0004f] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:904 
+02/25/2016 15:08:07|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:08:07|Debug|WebSocket.closeHandshake:884|Was clean?: False
+                            sent: False
+                            received: False
+02/25/2016 15:08:07|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:08:10|Error|WebSocket.Close:2085|This operation isn't available in: closed
+02/25/2016 15:08:50|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:08:50|Debug|WebSocket.sendHttpRequest:1580|A request to the server:
+                          GET /scenes/120 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: grid.scenevr.com:8080
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: G9RdXJ8z20tAo59yIBapow==
+                          Sec-WebSocket-Protocol: scenevr
+                          Sec-WebSocket-Version: 13
+02/25/2016 15:08:53|Debug|WebSocket.sendHttpRequest:1582|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Server: nginx/1.6.2
+                          Date: Thu, 25 Feb 2016 02:08:52 GMT
+                          Connection: upgrade
+                          upgrade: websocket
+                          sec-websocket-accept: JLDlOJqEe1pAaf6Iinxg8g22eYs=
+                          sec-websocket-protocol: scenevr
+                          Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE
+                          Access-Control-Allow-Credentials: true
+                          Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Origin,Content-Type,Accept,Accept-Encoding
+02/25/2016 15:08:59|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:09:00|Info |WebSocket.close:838|The closing is already in progress.
+02/25/2016 15:09:00|Debug|WebSocket.closeHandshake:884|Was clean?: True
+                            sent: True
+                            received: True
+02/25/2016 15:09:00|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:09:06|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:09:06|Debug|WebSocket.sendHttpRequest:1580|A request to the server:
+                          GET /scenes/120 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: grid.scenevr.com:8080
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: U0icjcq/hgVzeJ5xLzt7SA==
+                          Sec-WebSocket-Protocol: scenevr
+                          Sec-WebSocket-Version: 13
+02/25/2016 15:09:07|Debug|WebSocket.sendHttpRequest:1582|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Server: nginx/1.6.2
+                          Date: Thu, 25 Feb 2016 02:09:06 GMT
+                          Connection: upgrade
+                          upgrade: websocket
+                          sec-websocket-accept: o4cAdJ2C9p2VrukiESiCoQYPXzM=
+                          sec-websocket-protocol: scenevr
+                          Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE
+                          Access-Control-Allow-Credentials: true
+                          Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Origin,Content-Type,Accept,Accept-Encoding
+02/25/2016 15:09:13|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:09:13|Info |WebSocket.close:838|The closing is already in progress.
+02/25/2016 15:09:13|Debug|WebSocket.closeHandshake:884|Was clean?: True
+                            sent: True
+                            received: True
+02/25/2016 15:09:13|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:12:30|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:12:30|Debug|WebSocket.sendHttpRequest:1580|A request to the server:
+                          GET /scenes/120 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: grid.scenevr.com:8080
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: VUBQC+TzwKpQgFKEzLFpKg==
+                          Sec-WebSocket-Protocol: scenevr
+                          Sec-WebSocket-Version: 13
+02/25/2016 15:12:33|Debug|WebSocket.sendHttpRequest:1582|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Server: nginx/1.6.2
+                          Date: Thu, 25 Feb 2016 02:12:32 GMT
+                          Connection: upgrade
+                          upgrade: websocket
+                          sec-websocket-accept: LlbpkeFXkK5KgrwPCZ1qb6khgsA=
+                          sec-websocket-protocol: scenevr
+                          Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE
+                          Access-Control-Allow-Credentials: true
+                          Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Origin,Content-Type,Accept,Accept-Encoding
+02/25/2016 15:12:59|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:12:59|Info |WebSocket.close:838|The closing is already in progress.
+02/25/2016 15:12:59|Debug|WebSocket.closeHandshake:884|Was clean?: True
+                            sent: True
+                            received: True
+02/25/2016 15:12:59|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:13:03|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:13:03|Fatal|WebSocket.connect:910|WebSocketSharp.WebSocketException: An error has occurred during a TLS handshake. ---> System.IO.IOException: The authentication or decryption has failed. ---> Mono.Security.Protocol.Tls.TlsException: The authentication or decryption has failed.
+                            at Mono.Security.Protocol.Tls.RecordProtocol.ProcessAlert (AlertLevel alertLevel, AlertDescription alertDesc) [0x00000] in <filename unknown>:0 
+                            at Mono.Security.Protocol.Tls.RecordProtocol.InternalReceiveRecordCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at Mono.Security.Protocol.Tls.SslStreamBase.AsyncHandshakeCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at WebSocketSharp.WebSocket.setClientStream () [0x000fe] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1668 
+                            at WebSocketSharp.WebSocket.doHandshake () [0x00000] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1024 
+                            at WebSocketSharp.WebSocket.connect () [0x0004f] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:904 
+02/25/2016 15:13:03|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:13:03|Debug|WebSocket.closeHandshake:884|Was clean?: False
+                            sent: False
+                            received: False
+02/25/2016 15:13:03|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:13:07|Error|WebSocket.Close:2085|This operation isn't available in: closed
+02/25/2016 15:13:48|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:13:49|Debug|WebSocket.sendHttpRequest:1580|A request to the server:
+                          GET /chess.xml HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: scenevr-chess.herokuapp.com
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: ZrAd33+2v7vYWuGQNjKIBQ==
+                          Sec-WebSocket-Protocol: scenevr
+                          Sec-WebSocket-Version: 13
+02/25/2016 15:13:54|Debug|WebSocket.sendHttpRequest:1582|A response to this request:
+                          HTTP/1.1 101 Switching Protocols
+                          Connection: Upgrade
+                          Upgrade: websocket
+                          Sec-Websocket-Accept: xnNmZzHdZUrH+s8ILX16HeDiFjk=
+                          Sec-Websocket-Protocol: scenevr
+                          Via: 1.1 vegur
+02/25/2016 15:14:19|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:14:19|Info |WebSocket.close:838|The closing is already in progress.
+02/25/2016 15:14:19|Debug|WebSocket.closeHandshake:884|Was clean?: True
+                            sent: True
+                            received: True
+02/25/2016 15:14:19|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:18:27|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:18:27|Error|WebSocket.setClientStream:1653|Creating SslStream
+02/25/2016 15:18:27|Error|WebSocket.setClientStream:1661|Calling AuthenticateAsClient
+02/25/2016 15:18:28|Fatal|WebSocket.connect:910|WebSocketSharp.WebSocketException: An error has occurred during a TLS handshake. ---> System.IO.IOException: The authentication or decryption has failed. ---> Mono.Security.Protocol.Tls.TlsException: The authentication or decryption has failed.
+                            at Mono.Security.Protocol.Tls.RecordProtocol.ProcessAlert (AlertLevel alertLevel, AlertDescription alertDesc) [0x00000] in <filename unknown>:0 
+                            at Mono.Security.Protocol.Tls.RecordProtocol.InternalReceiveRecordCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at Mono.Security.Protocol.Tls.SslStreamBase.AsyncHandshakeCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at WebSocketSharp.WebSocket.setClientStream () [0x00134] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1674 
+                            at WebSocketSharp.WebSocket.doHandshake () [0x00000] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1024 
+                            at WebSocketSharp.WebSocket.connect () [0x0004f] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:904 
+02/25/2016 15:18:28|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:18:28|Debug|WebSocket.closeHandshake:884|Was clean?: False
+                            sent: False
+                            received: False
+02/25/2016 15:18:28|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:18:30|Error|WebSocket.Close:2091|This operation isn't available in: closed
+02/25/2016 15:20:31|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:20:31|Error|WebSocket.setClientStream:1653|Creating SslStream
+02/25/2016 15:20:31|Error|WebSocket.setClientStream:1661|Calling AuthenticateAsClient
+02/25/2016 15:20:31|Error|WebSocket.setClientStream:1662|host: 
+02/25/2016 15:20:31|Error|WebSocket.setClientStream:1663|grid.scenevr.com
+02/25/2016 15:20:31|Fatal|WebSocket.connect:910|WebSocketSharp.WebSocketException: An error has occurred during a TLS handshake. ---> System.IO.IOException: The authentication or decryption has failed. ---> Mono.Security.Protocol.Tls.TlsException: The authentication or decryption has failed.
+                            at Mono.Security.Protocol.Tls.RecordProtocol.ProcessAlert (AlertLevel alertLevel, AlertDescription alertDesc) [0x00000] in <filename unknown>:0 
+                            at Mono.Security.Protocol.Tls.RecordProtocol.InternalReceiveRecordCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at Mono.Security.Protocol.Tls.SslStreamBase.AsyncHandshakeCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at WebSocketSharp.WebSocket.setClientStream () [0x00142] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1678 
+                            at WebSocketSharp.WebSocket.doHandshake () [0x00000] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1024 
+                            at WebSocketSharp.WebSocket.connect () [0x0004f] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:904 
+02/25/2016 15:20:31|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:20:31|Debug|WebSocket.closeHandshake:884|Was clean?: False
+                            sent: False
+                            received: False
+02/25/2016 15:20:31|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:20:35|Error|WebSocket.Close:2095|This operation isn't available in: closed
+02/25/2016 15:21:14|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:21:15|Error|WebSocket.setClientStream:1653|Creating SslStream
+02/25/2016 15:21:15|Error|WebSocket.setClientStream:1661|Calling AuthenticateAsClient
+02/25/2016 15:21:15|Error|WebSocket.setClientStream:1662|host: 
+02/25/2016 15:21:15|Error|WebSocket.setClientStream:1663|grid.scenevr.com
+02/25/2016 15:21:15|Error|WebSocket.setClientStream:1673|Assigning _stream
+02/25/2016 15:21:15|Debug|WebSocket.sendHttpRequest:1580|A request to the server:
+                          GET /scenes/120 HTTP/1.1
+                          User-Agent: websocket-sharp/1.0
+                          Host: grid.scenevr.com
+                          Upgrade: websocket
+                          Connection: Upgrade
+                          Sec-WebSocket-Key: gKWEwS9KIumX4UCjlTCExw==
+                          Sec-WebSocket-Protocol: scenevr
+                          Sec-WebSocket-Version: 13
+02/25/2016 15:21:15|Fatal|WebSocket.connect:910|System.InvalidOperationException: This operation is invalid until it is successfully authenticated
+                            at System.Net.Security.SslStream.CheckConnectionAuthenticated () [0x00000] in <filename unknown>:0 
+                            at System.Net.Security.SslStream.BeginWrite (System.Byte[] buffer, Int32 offset, Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState) [0x00000] in <filename unknown>:0 
+                            at System.Net.Security.SslStream.Write (System.Byte[] buffer, Int32 offset, Int32 count) [0x00000] in <filename unknown>:0 
+                            at WebSocketSharp.HttpRequest.GetResponse (System.IO.Stream stream, Int32 millisecondsTimeout) [0x00007] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/HttpRequest.cs:158 
+                            at WebSocketSharp.WebSocket.sendHttpRequest (WebSocketSharp.HttpRequest request, Int32 millisecondsTimeout) [0x0001d] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1581 
+                            at WebSocketSharp.WebSocket.sendHandshakeRequest () [0x00007] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1519 
+                            at WebSocketSharp.WebSocket.doHandshake () [0x00006] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1025 
+                            at WebSocketSharp.WebSocket.connect () [0x0004f] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:904 
+02/25/2016 15:21:15|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:21:15|Debug|WebSocket.closeHandshake:884|Was clean?: False
+                            sent: False
+                            received: False
+02/25/2016 15:21:15|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:21:22|Error|WebSocket.Close:2095|This operation isn't available in: closed
+02/25/2016 15:25:39|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:25:39|Error|WebSocket.setClientStream:1653|Creating SslStream
+02/25/2016 15:25:39|Error|WebSocket.setClientStream:1661|Calling AuthenticateAsClient
+02/25/2016 15:25:39|Error|WebSocket.setClientStream:1662|host: 
+02/25/2016 15:25:39|Error|WebSocket.setClientStream:1663|grid.scenevr.com
+02/25/2016 15:25:40|Fatal|WebSocket.connect:910|WebSocketSharp.WebSocketException: An error has occurred during a TLS handshake. ---> System.IO.IOException: The authentication or decryption has failed. ---> Mono.Security.Protocol.Tls.TlsException: The authentication or decryption has failed.
+                            at Mono.Security.Protocol.Tls.RecordProtocol.ProcessAlert (AlertLevel alertLevel, AlertDescription alertDesc) [0x00000] in <filename unknown>:0 
+                            at Mono.Security.Protocol.Tls.RecordProtocol.InternalReceiveRecordCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at Mono.Security.Protocol.Tls.SslStreamBase.AsyncHandshakeCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at WebSocketSharp.WebSocket.setClientStream () [0x00142] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1677 
+                            at WebSocketSharp.WebSocket.doHandshake () [0x00000] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1024 
+                            at WebSocketSharp.WebSocket.connect () [0x0004f] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:904 
+02/25/2016 15:25:40|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:25:40|Debug|WebSocket.closeHandshake:884|Was clean?: False
+                            sent: False
+                            received: False
+02/25/2016 15:25:40|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:25:42|Error|WebSocket.Close:2094|This operation isn't available in: closed
+02/25/2016 15:25:58|Warn |Logger.set_File:131|The current path to the log file has been changed to websocket.log.
+02/25/2016 15:25:58|Error|WebSocket.setClientStream:1653|Creating SslStream
+02/25/2016 15:25:58|Error|WebSocket.setClientStream:1661|Calling AuthenticateAsClient
+02/25/2016 15:25:58|Error|WebSocket.setClientStream:1662|host: 
+02/25/2016 15:25:58|Error|WebSocket.setClientStream:1663|www.scenevr.com
+02/25/2016 15:25:59|Fatal|WebSocket.connect:910|WebSocketSharp.WebSocketException: An error has occurred during a TLS handshake. ---> System.IO.IOException: The authentication or decryption has failed. ---> Mono.Security.Protocol.Tls.TlsException: The authentication or decryption has failed.
+                            at Mono.Security.Protocol.Tls.RecordProtocol.ProcessAlert (AlertLevel alertLevel, AlertDescription alertDesc) [0x00000] in <filename unknown>:0 
+                            at Mono.Security.Protocol.Tls.RecordProtocol.InternalReceiveRecordCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at Mono.Security.Protocol.Tls.SslStreamBase.AsyncHandshakeCallback (IAsyncResult asyncResult) [0x00000] in <filename unknown>:0 
+                            --- End of inner exception stack trace ---
+                            at WebSocketSharp.WebSocket.setClientStream () [0x00142] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1677 
+                            at WebSocketSharp.WebSocket.doHandshake () [0x00000] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:1024 
+                            at WebSocketSharp.WebSocket.connect () [0x0004f] in /Users/ben/Projects/scene/scenevr-unity/Assets/websocket-sharp/WebSocket.cs:904 
+02/25/2016 15:25:59|Trace|WebSocket.close:853|Begin closing the connection.
+02/25/2016 15:25:59|Debug|WebSocket.closeHandshake:884|Was clean?: False
+                            sent: False
+                            received: False
+02/25/2016 15:25:59|Trace|WebSocket.close:859|End closing the connection.
+02/25/2016 15:26:02|Error|WebSocket.Close:2094|This operation isn't available in: closed
